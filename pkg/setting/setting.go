@@ -1,7 +1,7 @@
 package setting
 
 import (
-	"spf13/viper"
+	"github.com/spf13/viper"
 )
 
 type Setting struct {
