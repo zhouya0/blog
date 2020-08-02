@@ -32,6 +32,11 @@ func init() {
 
 }
 
+
+// @title 博客系统
+// @version 1.0
+// @describe Yao的博客
+// @termsOfService http://github.com/zhouya0/blog
 func main() {
 	gin.SetMode(global.ServerSetting.RunMode)
 	router := routers.NewRouter()
