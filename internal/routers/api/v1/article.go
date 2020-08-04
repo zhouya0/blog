@@ -31,7 +31,7 @@ func (a Article) Get(c *gin.Context) {
 // @Param state query int false "状态"
 // @Param page query int false "页码"
 // @Param page_size query int false "每页数量"
-// @Success 200 {object} model.Article "成功"
+// @Success 200 {object} model.ArticleSwagger "成功"
 // @Failure 400 {object} errcode.Error "请求错误"
 // @Failure 500 {object} errcode.Error "内部错误"
 // @Router /api/v1/articles [get]
@@ -50,7 +50,10 @@ func (a Article) List(c *gin.Context) {}
 // @Failure 400 {object} errcode.Error "请求错误"
 // @Failure 500 {object} errcode.Error "内部错误"
 // @Router /api/v1/articles [post]
-func (a Article) Create(c *gin.Context) {}
+func (a Article) Create(c *gin.Context) {
+	//https://github.com/go-programming-tour-book/blog-service/blob/e337d72c5bc09d26dd5fd06bc46c3c47b0c085a9/internal/routers/api/v1/article.go#L88
+	//这里确定是int吗
+}
 
 // @Summary 更新文章
 // @Produce json
