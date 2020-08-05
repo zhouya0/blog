@@ -43,3 +43,9 @@ func (r *Response) ToErrorResponse(err *errcode.Error) {
 }
 
 
+func (r *Response) ToResponse(data interface{}) {
+	if data == nil {
+		data = gin.H{}
+	}
+	r.Ctx.JSON(http.StatusOK, data)
+}

@@ -2,3 +2,6 @@
 2020/08/01 19:38:09 {"callers":["/Users/yao/Workspace/yao/blog/main.go: 28 main.init.0"],"level":"info","message":"yao: blog","time":1596281889571955000}
 2020/08/02 21:28:42 {"callers":["/Users/yao/Workspace/yao/blog/main.go: 28 main.init.0"],"level":"info","message":"yao: blog","time":1596374922289438000}
 2020/08/04 09:13:49 {"callers":["/Users/yao/Workspace/yao/blog/main.go: 28 main.init.0"],"level":"info","message":"yao: blog","time":1596503629462945000}
+2020/08/05 09:46:18 {"callers":["/Users/yao/Workspace/yao/blog/main.go: 28 main.init.0"],"level":"info","message":"yao: blog","time":1596591978359052000}
+2020/08/05 09:47:20 {"callers":["/Users/yao/Workspace/yao/blog/main.go: 28 main.init.0"],"level":"error","message":"app.BindAndValid errs: State必须是[0 1]中的一个","time":1596592040809483000}
+2020/08/05 09:47:52 {"callers":["/Users/yao/Workspace/yao/blog/main.go: 28 main.init.0"],"level":"error","message":"app.BindAndValid errs: State必须是[0 1]中的一个","time":1596592072017253000}
